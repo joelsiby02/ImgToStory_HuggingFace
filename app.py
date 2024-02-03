@@ -29,10 +29,6 @@ def img2text(image):
     return text, result
 
 # Input from the previous model text to story
-# Input from the previous model text to story
-from transformers import pipeline
-
-from transformers import pipeline
 
 def generate_story(scenario):
     # Remove `max_new_tokens` to use only `max_length`
